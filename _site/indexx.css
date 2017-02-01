@@ -1,0 +1,120 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f7f7f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+}
+
+/** Header styles **/
+
+.header {
+  background-image: url(img1-mini.jpeg);
+  height: 400px;
+  background-position: center center;
+  color: #e0cfe9;
+}
+
+h1 {
+  color: #41292C;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  color: #FFF;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+/** List style **/
+
+h2 {
+  color: #E4BB97;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main //*main*// {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+
+#one {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+#two {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+} 
+#three {
+  border-bottom: 1px solid #E4B B97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: #214E34;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+//*navigation *//
+
+.navigation{
+ background-color: #FFF;
+  border-bottom: 1px solid #466995;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+
+}
+.navigation ul{
+  margin: 30px auto;
+  text-align: center
+}
+.navigation li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0 40px;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+

@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: "Oswald", sans-serif;
+	font-size : 16px;
+	text-align: right;
+
+}
+
+title {}
+.jumbotron{}
+
+.jumbo{
+	max-width:450px;
+	max-height:300px;
+	display: block;
+	margin: 5px auto;
+	overflow: hidden;
+	/*float: right;*/
+}
+
+
+.contact{}
